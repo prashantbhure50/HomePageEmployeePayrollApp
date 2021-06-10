@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./Css/Style.css" rel="stylesheet">
+        <title>Employee Payroll App</title>
+    </head>
+    <body>
+    <header class="header-content header">
+      <div class="logo-content">
+       <img src="../images/outline_person_black_24dp.png" alt="Employee-logo">
+       <div>
+           <span class="emp-text">EMPLOYEE</span><br>
+           <span class="emp-payroll">PAYROLL</span>
+       </div>
+      </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content">
+          <div class="emp-detail-text">Employee Details 
+              <div class="emp-count"></div>
+          </div>
+          <div class="image">
+            <img src="./twotone_search_black_24dp.png" alt="">
+          </div>
+        
+          <a href="" class="add-button">Add User</a>
+        </div>
+        <table id="display" class="table">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Prashant Bhure</td>
+                <td>Male</td>
+                <td><div class="dept-label">Development</div>
+                
+                </td>
+                <td>4000000</td>
+                <td>7 Nov 2020</td>
+            <td>
+            <img id="1" onclick="remove(this)" src="./twotone_delete_black_24dp.png" alt="delete">
+            <img id="1" onclick="update(this)" src="./twotone_edit_black_24dp.png" alt="edit">
+            </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Victor Singha</td>
+                <td>Male</td>
+                <td><div class="dept-label">Development</div>
+                
+                </td>
+                <td>4000000</td>
+                <td>2 Oct 2020</td>
+            <td>
+            <img id="1" onclick="remove(this)" src="./twotone_delete_black_24dp.png" alt="delete">
+            <img id="1" onclick="update(this)" src="./twotone_edit_black_24dp.png" alt="edit">
+            </td>
+            </tr>
+                </table>
+    </div>
+  
+    </body>
+</html>
